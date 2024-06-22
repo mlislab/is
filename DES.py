@@ -1,9 +1,8 @@
-#pycryptodome
+pip install pycryptodome
 from Crypto.Cipher import DES
 key = input("Enter a key:")
 
 if len(key) != 8:
-    # raise ValueError("The key should be of length 8")
     print("The length of the key should be 8")
     exit()
 
